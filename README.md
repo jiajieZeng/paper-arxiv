@@ -2,6 +2,8 @@
 
 > Last Updated: 2025.12.09
 
+![Monthly Trend](imgs/trend.png)
+
 ## Topic List
 
 Click to view papers:
