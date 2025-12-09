@@ -296,6 +296,14 @@ def json_to_trend(json_file: str | Path, img_file: str | Path) -> None:
 
 if __name__ == "__main__":
 
+    # ================= 新增代码开始 =================
+    # 获取当前脚本文件所在的绝对路径
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # 强制将工作目录切换到脚本所在目录
+    os.chdir(script_dir)
+    print(f"Working Directory set to: {script_dir}")
+    # ================= 新增代码结束 =================
+
     os.makedirs("docs", exist_ok=True)
     os.makedirs("imgs", exist_ok=True)
 
