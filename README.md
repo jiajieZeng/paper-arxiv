@@ -1,6 +1,6 @@
 # Daily ArXiv Papers
 
-> Last Updated: 2025.12.16
+> Last Updated: 2025.12.17
 
 This project provides daily updates on ArXiv papers regarding Multi-Agent LLMs, GUI Testing, and Code Generation. It builds upon the work of @bansky-cl, with refinements by @bbc00710086, and is currently deployed and maintained by zzz.
 
