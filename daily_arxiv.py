@@ -326,8 +326,9 @@ if __name__ == "__main__":
     # ================= 你的关键词配置 =================
     keywords["MA-CoEvo"] = '(all:"co-evolution" OR all:"co-evolving" OR all:"collaborative evolution") AND (all:"agent" OR all:"multi-agent" OR all:"dual-agent" OR all:"LLM")'
     keywords["MA-CoEvo-RL"] = '(abs:"co-evolution" OR abs:"co-evolving") AND (abs:"multi-agent" OR abs:"dual-agent") AND (abs:"reinforcement learning" OR abs:"RL" OR abs:"PPO")'
-    keywords["CodeGeneration_LLM"] = '(all:"code generation" OR all:"program synthesis" OR all:"text-to-code") AND (all:"LLM" OR all:"Large Language Model")'
+    keywords["CodeGeneration_LLM"] = '(all:"code generation" OR awll:"program synthesis" OR all:"text-to-code") AND (all:"LLM" OR all:"Large Language Model")'
     keywords["GUI_LLM_RL_MA"] = '(abs:"GUI testing" OR abs:"Android testing" OR abs:"mobile app testing") AND (abs:"LLM" OR abs:"Large Language Model" OR abs:"Agent") AND (abs:"reinforcement learning" OR abs:"multi-agent" OR abs:"co-evolution" OR abs:"evolutionary")'
+    keywords["Latent_Reasoning"] = '(all:"latent reasoningwo" OR all:"implicit reasoning" OR all:"hidden reasoning") AND (all:"LLM" OR all:"large language model" OR all:"reasoning model")'  
     # ===============================================
 
     for topic, keyword in keywords.items():
