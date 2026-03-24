@@ -30,3 +30,9 @@ This project provides daily updates on ArXiv papers regarding Multi-Agent LLMs, 
 👉 [**View Paper List for GUI_LLM_RL_MA**](GUI_LLM_RL_MA.md)
 
 ---
+### Latent_Reasoning
+![Latent_Reasoning Trend](imgs/trend_Latent_Reasoning.png)
+
+👉 [**View Paper List for Latent_Reasoning**](Latent_Reasoning.md)
+
+---
