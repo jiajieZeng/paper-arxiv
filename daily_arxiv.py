@@ -328,7 +328,7 @@ if __name__ == "__main__":
     keywords["MA-CoEvo-RL"] = '(abs:"co-evolution" OR abs:"co-evolving") AND (abs:"multi-agent" OR abs:"dual-agent") AND (abs:"reinforcement learning" OR abs:"RL" OR abs:"PPO")'
     keywords["CodeGeneration_LLM"] = '(all:"code generation" OR awll:"program synthesis" OR all:"text-to-code") AND (all:"LLM" OR all:"Large Language Model")'
     keywords["GUI_LLM_RL_MA"] = '(abs:"GUI testing" OR abs:"Android testing" OR abs:"mobile app testing") AND (abs:"LLM" OR abs:"Large Language Model" OR abs:"Agent") AND (abs:"reinforcement learning" OR abs:"multi-agent" OR abs:"co-evolution" OR abs:"evolutionary")'
-    keywords["Latent_Reasoning"] = '(all:"latent reasoningwo" OR all:"implicit reasoning" OR all:"hidden reasoning") AND (all:"LLM" OR all:"large language model" OR all:"reasoning model")'  
+    keywords["Latent_Reasoning"] = '(all:"latent reasoning" OR all:"implicit reasoning" OR all:"hidden reasoning") AND (all:"LLM" OR all:"large language model" OR all:"reasoning model")'  
     # ===============================================
 
     for topic, keyword in keywords.items():
